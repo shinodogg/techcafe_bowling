@@ -1,5 +1,8 @@
 function Player() {
 }
-Player.prototype.throw = function() {
+Player.prototype.gutterThrow = function() {
   return 0;
+};
+Player.prototype.onePinThrow = function() {
+  return 1;
 };
